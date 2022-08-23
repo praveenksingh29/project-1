@@ -1,0 +1,26 @@
+input[type="range"]{
+    -webkit-appearance: none !important;
+    width: 70px;
+    height: 2px;
+    background: var(--gray-200);
+    border: none;
+    outline: none;
+
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    width: 12px;
+    height: 12px;
+    background: var(--black-100);
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb:hover{
+    background: var(--white);
+}
+@media screen and (max-width: 1377px){
+    input[type="range"]{
+        width: 50px;
+    }
+}

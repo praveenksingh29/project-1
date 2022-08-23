@@ -1,0 +1,122 @@
+.mainScreen{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.screen{
+    display: flex;
+    position: relative;
+    background: var(--black-200);
+    width: 100%;
+    height: 550px;
+    border-radius: .5rem;
+    justify-content: center;
+}
+.screen>img{
+    position: absolute;
+    height: 550px;
+    top: 0px;
+    left: 160px;
+}
+.display{
+    position: absolute;
+    background: transparent;
+    border: 1px solid var(--solid);
+    border-radius: .5rem;
+    width: 80%;
+    height: 250px;
+    top: 120px;
+}
+.screen>hr{
+    position: absolute;
+    border: none;
+    border-left: 1px dashed var(--gray-200);
+    height:98%;
+    width:1px;
+}
+.left-line{
+    top: 0;
+    left: 120px;
+}
+.right-line{
+    top: 0;
+    right: 120px;
+}
+.mainScreen-footer{
+    display: flex;
+    margin-top: 12px;
+    /* background: red; */
+}
+.Gutter{
+    display: flex;
+    color: var(--gray-200);
+    align-items: center;
+    gap: .5rem;
+}
+.Gutter-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--gray-200);
+    padding-left: 5px;
+    width: 125px;
+    height: 36px;
+    gap: .6rem;
+    border-radius: .5rem;
+}
+.Gutter-input>span{
+    color: var(--white);
+    font-size: 12px;
+}
+.Gutter-input>hr{
+    position: absolute;
+    border: none;
+    border-left: 1px solid var(--gray-200);
+    height:100%;
+    width:1px;
+    right: 45px;
+}
+.Aspect-ratio{
+    display: flex;
+    margin-left: 30px;
+}
+.Screen-bounds{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.Title-safe{
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+@media screen and (max-width: 1420px){
+    .Aspect-ratio, .Screen-bounds{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1377px){
+    .Gutter>span{
+        font-size: 12px;
+    }
+    .Gutter-input>span{
+        font-size: 10px;
+    }
+    .Gutter-input{
+        width: 100px;
+        height: 30px;
+        /* background-color: red; */
+    }
+    .Gutter-input>hr{
+        right: 40px;
+    }
+}
+@media screen and (max-width: 1377px){
+    .mainScreen-footer{
+        margin-left: 20px;
+    }
+    .Aspect-ratio, .Screen-bounds{
+        margin-left: 15px;
+    }
+}

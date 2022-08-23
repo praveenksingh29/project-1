@@ -1,0 +1,14 @@
+.name-text{
+    display: flex;
+    align-items: center;
+}
+.ali-text{
+    /* background: red; */
+}
+.screen-font{
+    display: flex;
+    margin-left: -10px;
+    /* background: beige; */
+    align-items: center;
+    font-size: .9rem;
+}

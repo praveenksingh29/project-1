@@ -1,0 +1,30 @@
+.Roles-name{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.alignment{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.alignment-text{
+    color: var(--white);
+    font-size: .9rem;
+    min-width: 100px;
+}
+.double-column{
+    margin-left: 25px;
+}
+.ragged-gutter{
+    margin-top: 5px;
+    margin-left: 126px;
+}
+.spacing{
+    margin-top: 5px;
+    margin-left: 126px;
+}
+.rolename-inside>hr{
+    margin-top: 20px;
+}

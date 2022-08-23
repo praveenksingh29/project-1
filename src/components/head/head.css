@@ -1,0 +1,33 @@
+.main-head{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.logo{
+    flex: 0 0 30%;
+}
+.logo>span{
+    color: var(--white);
+    font-weight: bold;
+    background: rgba(73, 73, 73, 1);
+    padding: 5px 35px;
+    margin-left: 50px;
+}
+.project-title{
+    flex: 0 0 40%;
+}
+.project-title>span{
+    color: var(--white);
+    font-weight: bold;
+    margin-left: 38%;
+}
+.head-icon{
+    flex: 0 0 30%;
+    /* background-color: beige; */
+}
+.head-icon>div{
+    margin-left: 65%;
+}
+.head-icon>div>img{
+    margin-right: 35px;
+}

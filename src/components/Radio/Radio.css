@@ -1,0 +1,32 @@
+.radio{
+    display: flex;
+    align-items: center;
+}
+.radio-label{
+    color: var(--gray-200);
+    font-size: .9rem;
+    min-width: 130px;
+}
+.radio-component{
+    display: flex;
+    /* background: red; */
+}
+.radio-icon{
+    height: 15px;
+}
+.radioItem{
+    display: flex;
+    background: transparent;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 8px;
+}
+.activeRadio{
+    display: flex;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    background: var(--gray-300);
+}

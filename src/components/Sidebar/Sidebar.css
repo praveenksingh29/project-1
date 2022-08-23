@@ -1,0 +1,83 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 1.5rem;
+    transition: all 300ms ease;
+    /* background: green; */
+}
+.SideTop{
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--text-200);
+    margin-left: 2.5rem;
+    /* background: orange; */
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 16px;
+    padding: .6rem;
+    border-radius: 8px;
+    color: var(--text-200);
+    margin: 1rem 1rem;
+    background: var(--gray);
+    color: var(--text-200);
+    gap: 1.5rem;
+    min-height: 450px;
+}
+.menuItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: .5rem;
+    transition: all 300ms ease;
+}
+.menuItem:hover{
+    cursor: pointer;
+}
+.icon{
+    margin-left: .5rem;
+    height: 20px;
+}
+.active{
+    display: flex;
+    align-items: top;
+    padding-top: 5px;
+    gap: 1rem;
+    border-radius: .5rem;
+    transition: all 300ms ease;
+    background: var(--gray-100);
+    height: 3rem;
+}
+.sideBottom{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+Button{
+    padding-left: 20px;
+    position: relative;
+    margin-left: 1.1rem;
+    gap: 1rem;
+    /* align-items: center; */
+}
+Button>img{
+    position: absolute;
+    left: 8px;
+}
+@media screen and (max-width: 1477px){
+    Button{
+        margin-left: .5rem;
+    }
+}
+@media screen and (max-width: 1401px){
+    Button{
+        margin-left: .8rem;
+    }
+    Button>img{
+        height: 15px;
+    }
+}

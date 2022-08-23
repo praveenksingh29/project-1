@@ -1,0 +1,90 @@
+.Layout{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.Layout-title{
+    display: flex;
+}
+.Layout-text{
+    position: relative;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.Hr{
+    background: var(--solid);
+    height: 2px;
+    border: none;
+}
+.font-text{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 100%;
+}
+.font-text>span{
+    display: flex;
+    left: 0px;
+    color: var(--gray-200);
+    cursor: pointer;
+}
+.font-text>div>img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Layout-screen{
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    margin-top: 10px;
+    background: var(--gray);
+    border-radius: .5rem;
+}
+.Block-type{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 96%;
+    height: 39px;
+}
+.Block-text{
+    display: flex;
+    color: var(--white);
+    font-size: .9rem;
+    cursor: pointer;
+}
+.Block-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    width: 75%;
+    font-size: .9rem;
+    color: var(--gray-200);
+}
+.Layout-screen>hr{
+    position: absolute;
+    border: none;
+    width: 95%;
+    height: 1px;
+    top: 40px;
+    left: 2.5%;
+    background: var(--gray-200);
+}
+.Mainlayout-screen{
+    display: flex;
+    position: relative;
+    top: 12px;
+    width: 100%;
+    /* background: red; */
+}
+.Mainbtn{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 20px;
+}
