@@ -37,6 +37,19 @@ import BlockinsetIcon2 from "../icons/Radio/Block-Inset/Block-Inset-2.png";
 import BlockinsetIcon3 from "../icons/Radio/Block-Inset/Block-Inset-3.png";
 import BlockinsetIcon4 from "../icons/Radio/Block-Inset/Block-Inset-4.png";
 
+// JustifiedGutter
+import JustifiedgutterIcon1 from "../icons/Radio/Justified-Gutter/Justified-Gutter-1.png";
+import JustifiedgutterIcon2 from "../icons/Radio/Justified-Gutter/Justified-Gutter-2.png";
+import JustifiedgutterIcon3 from "../icons/Radio/Justified-Gutter/Justified-Gutter-3.png";
+import JustifiedgutterIcon4 from "../icons/Radio/Justified-Gutter/Justified-Gutter-4.png";
+
+// Paragraph
+import paragraphIcon1 from "../icons/Radio/Paragraph/Paragraph-1.png";
+import paragraphIcon2 from "../icons/Radio/Paragraph/Paragraph-2.png";
+import paragraphIcon3 from "../icons/Radio/Paragraph/Paragraph-3.png";
+import paragraphIcon4 from "../icons/Radio/Paragraph/Paragraph-4.png";
+import paragraphIcon5 from "../icons/Radio/Paragraph/Paragraph-5.png";
+
 // Sidebar Data
 export const SidebarData = [
     {
@@ -174,4 +187,44 @@ export const Vertical = [
     " 50% ",
     " 100% ",
     " 150% "
+];
+
+
+// Name Only 
+
+// JustifiedGutter
+
+export const Justifiedgutter =[
+    {
+        icon: JustifiedgutterIcon1
+    },
+    {
+        icon: JustifiedgutterIcon2
+    },
+    {
+        icon: JustifiedgutterIcon3
+    },
+    {
+        icon: JustifiedgutterIcon4
+    }
+];
+
+// Paragraph
+
+export const paragraph = [
+    {
+        icon: paragraphIcon1
+    },
+    {
+        icon: paragraphIcon2
+    },
+    {
+        icon: paragraphIcon3
+    },
+    {
+        icon: paragraphIcon4
+    },
+    {
+        icon: paragraphIcon5
+    }
 ];

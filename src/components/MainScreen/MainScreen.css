@@ -120,3 +120,11 @@
         margin-left: 15px;
     }
 }
+@media screen and (min-width: 1687px){
+    .mainScreen-footer{
+        margin-left: 50px;
+    }
+    .Aspect-ratio, .Screen-bounds{
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,9 @@
+.columns{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+.paragraph{
+    display: flex;
+    align-items: center;
+}

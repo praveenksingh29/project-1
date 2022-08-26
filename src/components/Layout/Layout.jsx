@@ -3,9 +3,10 @@ import "./Layout.css";
 import PreviousIcon from "../../icons/previous-next/left.png";
 import NextIcon from "../../icons/previous-next/right.png";
 import Info from "../../icons/previous-next/Info.png";
-import Rolesname from './Rolesname/Rolesname';
 import { Scrollbars } from "react-custom-scrollbars";
 import { Button } from "../Button/Button";
+// import Rolesname from './Rolesname/Rolesname';
+import NameOnly from './NameOnly/NameOnly';
 
 const Layout = () => {
   return (
@@ -37,7 +38,8 @@ const Layout = () => {
           <hr />
           <Scrollbars style={{ width:490, height:450}}>
           <div className='Mainlayout-screen'>
-            <Rolesname/>
+            {/* <Rolesname/> */}
+            <NameOnly/>
           </div>
           </Scrollbars>
         </div>
