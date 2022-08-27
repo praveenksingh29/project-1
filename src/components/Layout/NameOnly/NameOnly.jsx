@@ -1,11 +1,12 @@
 import React from 'react';
-import "../Rolesname/Rolesname.css"
+import "../Rolesname/Rolesname.css";
 import NameonlyArrangement from '../Arrangement/NameonlyArrangement';
 import NameonlyAlignment from '../Alignment/NameonlyAlignment';
 import Columnwidth from '../Columnwidth/Columnwidth';
 import NameonlyBalance from '../Balance/NameonlyBalance';
 import BlockInset from '../BlockInset/BlockInset';
 import Margin from '../Margin/Margin';
+import Ordering from '../Ordering/Ordering';
 
 const NameOnly = () => {
   return (
@@ -22,6 +23,9 @@ const NameOnly = () => {
                 </div>
                 <div className='alignment'>
                 <NameonlyBalance/>
+                </div>
+                <div className='alignment'>
+                <Ordering/>
                 </div>
                 <hr/>
                 <div className='alignment'>

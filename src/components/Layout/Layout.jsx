@@ -5,8 +5,9 @@ import NextIcon from "../../icons/previous-next/right.png";
 import Info from "../../icons/previous-next/Info.png";
 import { Scrollbars } from "react-custom-scrollbars";
 import { Button } from "../Button/Button";
-// import Rolesname from './Rolesname/Rolesname';
+import Rolesname from './Rolesname/Rolesname';
 import NameOnly from './NameOnly/NameOnly';
+import Songs from './Songs/Songs';
 
 const Layout = () => {
   return (
@@ -39,7 +40,8 @@ const Layout = () => {
           <Scrollbars style={{ width:490, height:450}}>
           <div className='Mainlayout-screen'>
             {/* <Rolesname/> */}
-            <NameOnly/>
+            {/* <NameOnly/> */}
+            <Songs/>
           </div>
           </Scrollbars>
         </div>

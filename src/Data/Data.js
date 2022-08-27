@@ -50,6 +50,15 @@ import paragraphIcon3 from "../icons/Radio/Paragraph/Paragraph-3.png";
 import paragraphIcon4 from "../icons/Radio/Paragraph/Paragraph-4.png";
 import paragraphIcon5 from "../icons/Radio/Paragraph/Paragraph-5.png";
 
+// Column flow
+import ColumnflowIcon1 from "../icons/Radio/Column-flow/Column-flow-1.png";
+import ColumnflowIcon2 from "../icons/Radio/Column-flow/Column-flow-2.png";
+
+// Alphabetical
+import AlphabeticalIcon1 from "../icons/Radio/Alphabetical/Alphabetical-1.png";
+import AlphabeticalIcon2 from "../icons/Radio/Alphabetical/Alphabetical-2.png";
+import AlphabeticalIcon3 from "../icons/Radio/Alphabetical/Alphabetical-3.png";
+
 // Sidebar Data
 export const SidebarData = [
     {
@@ -226,5 +235,26 @@ export const paragraph = [
     },
     {
         icon: paragraphIcon5
+    }
+];
+
+// Column flow
+
+export const ColumnFlow = [
+    {
+        icon: ColumnflowIcon1
+    },
+    {
+        icon: ColumnflowIcon2
+    }
+];
+
+// Alphabetical
+export const alphabetical = [
+    {
+        icon: AlphabeticalIcon1
+    },
+    {
+        icon: AlphabeticalIcon2
     }
 ];

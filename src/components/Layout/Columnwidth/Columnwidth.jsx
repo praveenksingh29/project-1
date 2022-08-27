@@ -9,7 +9,7 @@ const Columnwidth = () => {
                 <span>Column width</span>
                
             </div>
-            <IncrementingButton />
+            <IncrementingButton valuetype={"%"}/>
                 
     </div>
   )

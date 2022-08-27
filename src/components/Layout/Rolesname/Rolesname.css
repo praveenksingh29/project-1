@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin-left: 15px;
+    width: 95%;
 }
 
 .alignment{
@@ -27,4 +28,8 @@
 }
 .rolename-inside>hr{
     margin-top: 20px;
+    width: 465px;
+    height: 1px;
+    border: none;
+    background: var(--gray-200);
 }
