@@ -8,6 +8,7 @@ import { Button } from "../Button/Button";
 import Rolesname from './Rolesname/Rolesname';
 import NameOnly from './NameOnly/NameOnly';
 import Songs from './Songs/Songs';
+import Logo from './Logo/Logo';
 
 const Layout = () => {
   return (
@@ -41,7 +42,8 @@ const Layout = () => {
           <div className='Mainlayout-screen'>
             {/* <Rolesname/> */}
             {/* <NameOnly/> */}
-            <Songs/>
+            {/* <Songs/> */}
+            <Logo/>
           </div>
           </Scrollbars>
         </div>
